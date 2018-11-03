@@ -1,5 +1,29 @@
-.square {
-  height: 50px;
-  width: 50px;
-  background-color: #555;
+*{
+	box-sizing: border-box;
+}
+
+.square{
+	display: flex;
+	height: 120px;
+	width: 120px;
+	border-color: #606060;
+	border-style: solid;
+	border-width: 2pt;
+	border-radius: 10px;
+	margin: 0px 0px 15px 0px;
+	align-items: center;
+	justify-content: center;
+}
+
+.squareContainer div:nth-child(odd){
+	background-color: #f7fade;
+}
+
+.squareContainer div:nth-child(even){
+	background-color: #dfedd6;
+}
+
+.letter{
+	font-family: 'Baloo';
+	font-size: 36px;
 }

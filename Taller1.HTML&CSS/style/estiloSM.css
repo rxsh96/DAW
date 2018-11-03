@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+
+.square{
+	display: inline-block;
+	align-items: center;
+	height: 144px;
+	width: 120px;
+	border-color: #606060;
+	border-style: solid;
+	border-width: 2pt;
+	border-radius: 10px;
+	margin: 0px 17px 0px 0px;
+}
+
+.squareContainer div:nth-child(odd){
+	background-color: #f7fade;
+}
+
+.squareContainer div:nth-child(even){
+	background-color: #dfedd6;
+}
+
+.letter{
+	font-family: 'Baloo';
+	font-size: 36px;
+	padding: 0px 0px 0px 17px;
+	text-align: left;
+}
